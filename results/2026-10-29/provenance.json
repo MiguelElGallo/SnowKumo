@@ -1,0 +1,20 @@
+{
+  "run_id": "7A2528115440",
+  "executed_on": "2026-10-29",
+  "actuals_through": "2026-10-28",
+  "source": "Finnish Meteorological Institute, CC BY 4.0",
+  "verification": "Completed Snowflake GPU run; full prediction table read back and compared. Public code cells match the executed notebook. Offline CI does not retrain.",
+  "executed_code_cells_sha256": "47f98a6393f687b144e1ff3a9e10dc5db6efe1ec628eee928c71f733093e1a57",
+  "sha256": {
+    "data/snapshot-2026-10-28/calendar_2026.csv": "982a146331e4915aecf2b81f8d1b5142b45139411b1fea28eaecb8fc01aa7ac6",
+    "data/snapshot-2026-10-28/manifest.json": "f33b21053f4091ec14e32975431f053b9ffd13c7e681a515903ff889ea4da3b5",
+    "data/snapshot-2026-10-28/observations.csv": "17d73743268c4fb86d176fa56a8b38aeb699a56ff5fef6e9d48f206fede25af4",
+    "data/snapshot-2026-10-28/score_population.csv": "e33d6c3fa837369c5a22a2dcd7024cc96d356623eb0bceb1350a994d040a3186",
+    "data/snapshot-2026-10-28/stations.csv": "5fbf6a1f27bc335018816189b4acc497264fa9a4d8667f864167011729fa78a8",
+    "data/snapshot-2026-10-28/training_labels.csv": "a0530f6daa4396e8ad46874d58c970cdc4cf7199edf060b2b69903a128646835",
+    "results/2026-10-29/helsinki_2025_observations.csv": "37725ecc063776687900c80471ae9b1a8201e3608d7380a7baec13a29f3559b2",
+    "results/2026-10-29/helsinki_2026_kumo.csv": "e35e5a31250279beefab79abf23f05cf3593347467c86557083a8e3718d3c24c",
+    "results/2026-10-29/helsinki_2026_kumo.png": "1040b14339058b7272eb0c770fb78e7960a0336fd9b5229c269a2ee66d0c82ce",
+    "results/2026-10-29/metrics.json": "f99751afb129d0f825f6b6c1eb5351d2926fd7076f21a071e972694336405e81"
+  }
+}

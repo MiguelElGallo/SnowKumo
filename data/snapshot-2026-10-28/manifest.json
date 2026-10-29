@@ -1,0 +1,229 @@
+{
+  "as_of": "2026-10-28",
+  "acquired_at": "2026-10-29T16:21:28.026915+00:00",
+  "source": "Finnish Meteorological Institute, CC BY 4.0",
+  "observations": 10546,
+  "training_rows": 8601,
+  "training_exclusions": 165,
+  "splits": {
+    "0": 6408,
+    "1": 1098,
+    "2": 1095
+  },
+  "rolling_score_rows": 903,
+  "calendar_rows": 1095,
+  "actual_rows": 903,
+  "future_rows": 192,
+  "baselines": {
+    "persistence": {
+      "n": 903,
+      "mae_c": 1.4511627906976745,
+      "rmse_c": 1.9585007939522023
+    },
+    "seasonal_naive_2025": {
+      "n": 903,
+      "mae_c": 3.434108527131783,
+      "rmse_c": 4.764767799338896
+    }
+  },
+  "requests": [
+    {
+      "file": "station_100971.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aef%3A%3Astations&fmisid=100971",
+      "sha256": "8e13f1431c98d79fdf823580459ca96aa40a9cd7db2be690c80689c30959152a",
+      "bytes": 3290
+    },
+    {
+      "file": "daily_100971_2017.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2017-01-01T00%3A00%3A00Z&endtime=2017-12-31T00%3A00%3A00Z",
+      "sha256": "35aa71a41f578e1ab1f8e88e9c27e171f1452b32ae71947f745e3f5a867a5b4a",
+      "bytes": 224665
+    },
+    {
+      "file": "daily_100971_2018.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2018-01-01T00%3A00%3A00Z&endtime=2018-12-31T00%3A00%3A00Z",
+      "sha256": "28eca15d3797f415a470dd5eced6c0fa4b14a507efa265fc6ee8eebaec057920",
+      "bytes": 224745
+    },
+    {
+      "file": "daily_100971_2019.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2019-01-01T00%3A00%3A00Z&endtime=2019-12-31T00%3A00%3A00Z",
+      "sha256": "22508395faf8d3f68362c919a47b345125aa6b7443f3af8cf0c05d5f75392cb1",
+      "bytes": 224691
+    },
+    {
+      "file": "daily_100971_2020.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2020-01-01T00%3A00%3A00Z&endtime=2020-12-31T00%3A00%3A00Z",
+      "sha256": "746bdf87ecb5e5067ea07a4207fe835f60f7b180e85939d35d7534378b069da2",
+      "bytes": 225279
+    },
+    {
+      "file": "daily_100971_2021.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2021-01-01T00%3A00%3A00Z&endtime=2021-12-31T00%3A00%3A00Z",
+      "sha256": "3e8c1c50fc820b0994656826753f52c4ac8700e8a33f4a9c42894e57eae057cf",
+      "bytes": 224742
+    },
+    {
+      "file": "daily_100971_2022.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2022-01-01T00%3A00%3A00Z&endtime=2022-12-31T00%3A00%3A00Z",
+      "sha256": "647188cf0d0a858f59a7a20d704fc7c276792bf51a3a14b879d490cc2e89f969",
+      "bytes": 224714
+    },
+    {
+      "file": "daily_100971_2023.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2023-01-01T00%3A00%3A00Z&endtime=2023-12-31T00%3A00%3A00Z",
+      "sha256": "c7766655fc011ae44a4869c288075d378fc43c943e38a5c8d238cc65ab7baa6d",
+      "bytes": 224730
+    },
+    {
+      "file": "daily_100971_2024.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2024-01-01T00%3A00%3A00Z&endtime=2024-12-31T00%3A00%3A00Z",
+      "sha256": "05b2a5f069c81def8bdc7a134e9b8d7b168f8b61a7a7215a58e9fefdb3bb06cc",
+      "bytes": 225343
+    },
+    {
+      "file": "daily_100971_2025_2025-12-31.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2025-01-01T00%3A00%3A00Z&endtime=2025-12-31T00%3A00%3A00Z",
+      "sha256": "7804442b0f9e1c2a25e0fdb4933f9f4e8aaaa134c9ad6a22ab975de6105e64e1",
+      "bytes": 224681
+    },
+    {
+      "file": "daily_100971_2026_2026-10-28.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100971&parameters=tday&starttime=2026-01-01T00%3A00%3A00Z&endtime=2026-10-28T00%3A00%3A00Z",
+      "sha256": "15b81ffded3f9fbce1038cb9d0ea85579cc97abce77b96ae80daad24b4b7f5b5",
+      "bytes": 185438
+    },
+    {
+      "file": "station_101004.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aef%3A%3Astations&fmisid=101004",
+      "sha256": "7b2101a5f45298ad52cf57cff238922211da5f68c90525a6411805f270e73305",
+      "bytes": 4213
+    },
+    {
+      "file": "daily_101004_2017.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2017-01-01T00%3A00%3A00Z&endtime=2017-12-31T00%3A00%3A00Z",
+      "sha256": "f1900e88dc205ab5c33615a26b5a0a13bccf556a2b944e48877f5fe7c04db7e9",
+      "bytes": 187828
+    },
+    {
+      "file": "daily_101004_2018.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2018-01-01T00%3A00%3A00Z&endtime=2018-12-31T00%3A00%3A00Z",
+      "sha256": "9bb7038af25e59afb0176af9b4aae3bc637b548b3d922fed1aa590b59756d8c8",
+      "bytes": 127624
+    },
+    {
+      "file": "daily_101004_2019.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2019-01-01T00%3A00%3A00Z&endtime=2019-12-31T00%3A00%3A00Z",
+      "sha256": "dd0a0c69d419a93f5df9a3bf1d2841a115335e207a343568244899006f2efefa",
+      "bytes": 224695
+    },
+    {
+      "file": "daily_101004_2020.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2020-01-01T00%3A00%3A00Z&endtime=2020-12-31T00%3A00%3A00Z",
+      "sha256": "6c92913bbe9b1ab39ed8a495a72294504f93ff06fcc3858e787d50807bf50132",
+      "bytes": 225281
+    },
+    {
+      "file": "daily_101004_2021.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2021-01-01T00%3A00%3A00Z&endtime=2021-12-31T00%3A00%3A00Z",
+      "sha256": "e45499707bdbdbbd5a85785190d6639fc959bd0db9e1e52c8a2bdf75a383e6b8",
+      "bytes": 224741
+    },
+    {
+      "file": "daily_101004_2022.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2022-01-01T00%3A00%3A00Z&endtime=2022-12-31T00%3A00%3A00Z",
+      "sha256": "e85dd37be05c3e32dbe8cbc41778a9b2bc7cfcb63ac24517cda129fbb34573f0",
+      "bytes": 224719
+    },
+    {
+      "file": "daily_101004_2023.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2023-01-01T00%3A00%3A00Z&endtime=2023-12-31T00%3A00%3A00Z",
+      "sha256": "173b31b8e4bde9de2c4bc3e8623da8f863552091a7378a0a0adfe0ce79037ff9",
+      "bytes": 224734
+    },
+    {
+      "file": "daily_101004_2024.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2024-01-01T00%3A00%3A00Z&endtime=2024-12-31T00%3A00%3A00Z",
+      "sha256": "c46dae4f37cdf8ef23bc9ce67513fb373f1848306459f2a89304457a05c35053",
+      "bytes": 225349
+    },
+    {
+      "file": "daily_101004_2025_2025-12-31.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2025-01-01T00%3A00%3A00Z&endtime=2025-12-31T00%3A00%3A00Z",
+      "sha256": "6d0004a445d64ca0b778b51f1d62380737032027def1fcb680bc18f0864b17d7",
+      "bytes": 224685
+    },
+    {
+      "file": "daily_101004_2026_2026-10-28.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=101004&parameters=tday&starttime=2026-01-01T00%3A00%3A00Z&endtime=2026-10-28T00%3A00%3A00Z",
+      "sha256": "54edf884c25b635ef275bdf7751358eae1dbe8e2bf5b5ec23185f8f47f171036",
+      "bytes": 185436
+    },
+    {
+      "file": "station_100996.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aef%3A%3Astations&fmisid=100996",
+      "sha256": "243d0ca134fddbb80389a6e1403b4801e74b28d80cf1596a6bf5efdde73dd317",
+      "bytes": 3284
+    },
+    {
+      "file": "daily_100996_2017.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2017-01-01T00%3A00%3A00Z&endtime=2017-12-31T00%3A00%3A00Z",
+      "sha256": "9b564b8d2a38412f566fad7fa3ee162c362ef808bb9cb843835cd5571e38457f",
+      "bytes": 224660
+    },
+    {
+      "file": "daily_100996_2018.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2018-01-01T00%3A00%3A00Z&endtime=2018-12-31T00%3A00%3A00Z",
+      "sha256": "b8d14ea22f6856c80162d416382ead7bc16bee94bba6f73d6d3d3104ed98502d",
+      "bytes": 224727
+    },
+    {
+      "file": "daily_100996_2019.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2019-01-01T00%3A00%3A00Z&endtime=2019-12-31T00%3A00%3A00Z",
+      "sha256": "99a5b82c302643379837eeabed8f1b1a36f4729cc07d744ba7b82c6e92ba2b39",
+      "bytes": 224678
+    },
+    {
+      "file": "daily_100996_2020.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2020-01-01T00%3A00%3A00Z&endtime=2020-12-31T00%3A00%3A00Z",
+      "sha256": "2f2c606b592958dfedf662bbd0aed9d24046ae6595fdbaa9e44f32ad4f21fb81",
+      "bytes": 225266
+    },
+    {
+      "file": "daily_100996_2021.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2021-01-01T00%3A00%3A00Z&endtime=2021-12-31T00%3A00%3A00Z",
+      "sha256": "1bfe14d0502d2683b9762d9028bb03b861f22a06d84184f41575b6bb63129b0c",
+      "bytes": 224716
+    },
+    {
+      "file": "daily_100996_2022.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2022-01-01T00%3A00%3A00Z&endtime=2022-12-31T00%3A00%3A00Z",
+      "sha256": "d6ae4b3a53007409a0ab98f4b1740531ac15934dff93e4924335a4bc38f6a700",
+      "bytes": 224704
+    },
+    {
+      "file": "daily_100996_2023.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2023-01-01T00%3A00%3A00Z&endtime=2023-12-31T00%3A00%3A00Z",
+      "sha256": "328090d47ae415fbc56ff04ae4de6d8c3de625511ae45ec2b039ea2aed2241c0",
+      "bytes": 224710
+    },
+    {
+      "file": "daily_100996_2024.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2024-01-01T00%3A00%3A00Z&endtime=2024-12-31T00%3A00%3A00Z",
+      "sha256": "3ce5d2ca7a7459f840b1c874542c1e5c8cb5492f16f720286248c9df54efc84d",
+      "bytes": 225339
+    },
+    {
+      "file": "daily_100996_2025_2025-12-31.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2025-01-01T00%3A00%3A00Z&endtime=2025-12-31T00%3A00%3A00Z",
+      "sha256": "c121467735b7b58d199ff54b3f98a1eb3eadce5303896badc64e2a3335244060",
+      "bytes": 224674
+    },
+    {
+      "file": "daily_100996_2026_2026-10-28.xml",
+      "url": "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Adaily%3A%3Asimple&fmisid=100996&parameters=tday&starttime=2026-01-01T00%3A00%3A00Z&endtime=2026-10-28T00%3A00%3A00Z",
+      "sha256": "fc080788ec2da89e173f2a00f57372a80d3e0c22cc9cd67b437e8059462103dd",
+      "bytes": 185422
+    }
+  ]
+}
