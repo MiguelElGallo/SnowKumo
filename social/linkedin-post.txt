@@ -1,0 +1,17 @@
+A full year of Helsinki temperature predictions, built with NVIDIA Kumo in Snowflake.
+
+The workflow is approachable: connect related tables → define a prediction in PQL → train on a GPU → save predictions back to Snowflake.
+
+I tested it with Finnish Meteorological Institute data from three stations:
+• Full 2025 history, plus earlier years for training
+• 903 daily comparisons against 2026 actuals through October 28
+• A separate recursive forecast, with November and December showing predictions only
+
+The result is a working integration—and a useful reminder to keep the baseline visible. Kumo's average absolute error was 3.09°C; simply predicting yesterday's temperature achieved 1.45°C.
+
+This was a three-epoch archival experiment, not a validated weather service. The notebook, data snapshot, package fixes, and results are all available in SnowKumo.
+
+Full walkthrough (including the repository):
+https://medium.com/@miguelperedo/nvidia-kumo-in-snowflake-from-weather-tables-to-a-working-gnn-4b70a18291cc
+
+#Snowflake #NVIDIA #MachineLearning #DataScience
